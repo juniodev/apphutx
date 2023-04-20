@@ -11,17 +11,17 @@ const Navigation = () => {
       <nav>
         <Link className={styles.logo} href="/">
           <Image
+            className={styles.logoImg}
             src="/logo-header.svg"
-            alt="Picture of the author"
+            alt="logo-header"
+            width={180}
+            height={60}
             priority={true}
-            width={55}
-            height={55}
           />
-          <strong>MyStore</strong>
         </Link>
         <Avatar
           className={styles.avatar}
-          size={45}
+          size={40}
           icon={<UserOutlined />}
         />
       </nav>

@@ -36,11 +36,9 @@ export default function AppDownload (props: IAppDownload) {
               <li key={index} className={styles.cardImg}>
                 <Image
                   src={value}
-                  alt={`Print ${index}`}
+                  alt={`screenshot-${index}`}
                   height={350}
                   width={200}
-                  blurDataURL='small'
-                  placeholder="blur"
                 />
               </li>
             )
